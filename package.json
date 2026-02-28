@@ -1,0 +1,16 @@
+{
+  "name": "github-contribution-filler",
+  "version": "1.0.0",
+  "description": "Generate backdated commits to fill your GitHub contribution graph with natural-looking activity or custom patterns.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "fill": "node index.js --mode fill",
+    "pattern": "node index.js --mode pattern"
+  },
+  "dependencies": {
+    "simple-git": "^3.27.0"
+  },
+  "keywords": ["github", "contributions", "git", "automation"],
+  "license": "MIT"
+}
